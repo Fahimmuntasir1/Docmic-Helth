@@ -1,4 +1,5 @@
 import Experience from "./Components/Experience/Experience";
+import FaQ from "./Components/FaQ/FaQ";
 import Feature from "./Components/Feature/Feature";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
@@ -10,6 +11,7 @@ function App() {
       <Services />
       <Experience />
       <Feature />
+      <FaQ />
     </div>
   );
 }

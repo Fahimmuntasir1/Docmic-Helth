@@ -7,7 +7,7 @@ import img5 from "../../assests/feature/image 5.png";
 
 const Feature = () => {
   return (
-    <section className="flex mt-[46px] pt-[10px] justify-between">
+    <section className="flex items-center mt-[46px] pt-[10px] justify-between">
       <div>
         <img src={feature} alt="" />
       </div>
@@ -15,10 +15,10 @@ const Feature = () => {
         <p className="text-[16px] text-[#642DFF] font-medium">
           Our Hospital Feature
         </p>
-        <h2 className="text-[32px] text-[#1E1E1E] leading-[38px]">
+        <h2 className="text-[32px] text-[#1E1E1E] leading-[38px] font-medium">
           Make An Appointment Easy And Fast Services{" "}
         </h2>
-        <div className="grid grid-cols-2 mt-[14px]">
+        <div className="grid grid-cols-2 mt-[14px] ">
           <div className="w-[280px] p-[12px]">
             <div className="flex justify-between mb-[12px]">
               <h3>24 Hours Doctor Support</h3>

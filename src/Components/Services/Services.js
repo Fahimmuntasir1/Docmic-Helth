@@ -1,4 +1,8 @@
 import React from "react";
+import img5 from "../../assests/services/Vector (5).png";
+import img6 from "../../assests/services/Vector (6).png";
+import img7 from "../../assests/services/Vector (7).png";
+import img8 from "../../assests/services/Vector (8).png";
 
 const Services = () => {
   return (
@@ -11,7 +15,7 @@ const Services = () => {
         <div className="w-[236px] h-[152px] border p-[12px]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Cardiology</h3>
-            <img src="" alt="" />
+            <img className="w-[18px] h-[22px]" src={img5} alt="" />
           </div>
           <p className="text-[14px] text-[#575757] mb-[24px]">
             Seduahag perspiciati under omnised atused error.
@@ -21,7 +25,7 @@ const Services = () => {
         <div className="w-[236px] h-[152px] border p-[12px]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Monthly Check Up</h3>
-            <img src="" alt="" />
+            <img className="w-[18px] h-[22px]" src={img6} alt="" />
           </div>
           <p className="text-[14px] text-[#575757] mb-[24px]">
             Seduahag perspiciati under omnised atused error.
@@ -31,7 +35,7 @@ const Services = () => {
         <div className="w-[236px] h-[152px] border p-[12px]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Dental Care</h3>
-            <img src="" alt="" />
+            <img className="w-[18px] h-[22px]" src={img7} alt="" />
           </div>
           <p className="text-[14px] text-[#575757] mb-[24px]">
             Seduahag perspiciati under omnised atused error.
@@ -41,7 +45,7 @@ const Services = () => {
         <div className="w-[236px] h-[152px] border p-[12px]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Ophthalmology</h3>
-            <img src="" alt="" />
+            <img className="w-[18px] h-[22px]" src={img8} alt="" />
           </div>
           <p className="text-[14px] text-[#575757] mb-[24px]">
             Seduahag perspiciati under omnised atused error.
