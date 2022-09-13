@@ -13,8 +13,8 @@ const Services = () => {
         </p>
         <h2 className="text-[32px] text-[#1E1E1E]">Services For Your Health</h2>
       </div>
-      <div className="lg:flex mt-[28px] gap-[21px] justify-center">
-        <div className="w-[236px] h-[152px] border p-[12px] bg-[#F7F7F7]">
+      <div className="lg:flex mt-[28px] lg:gap-[21px] justify-center">
+        <div className="lg:w-[236px] mb-5 h-[152px] border p-[12px] bg-[#F7F7F7]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Cardiology</h3>
             <img className="w-[18px] h-[22px]" src={img5} alt="" />
@@ -24,7 +24,7 @@ const Services = () => {
           </p>
           <button className="text-[16px] text-[#1E1E1E]">Explore Now</button>
         </div>
-        <div className="w-[236px] h-[152px] border p-[12px] bg-[#F7F7F7]">
+        <div className="lg:w-[236px] mb-5 h-[152px] border p-[12px] bg-[#F7F7F7]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Monthly Check Up</h3>
             <img className="w-[18px] h-[22px]" src={img6} alt="" />
@@ -34,7 +34,7 @@ const Services = () => {
           </p>
           <button className="text-[16px] text-[#1E1E1E]">Explore Now</button>
         </div>
-        <div className="w-[236px] h-[152px] border p-[12px] bg-[#F7F7F7]">
+        <div className="lg:w-[236px] mb-5 h-[152px] border p-[12px] bg-[#F7F7F7]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Dental Care</h3>
             <img className="w-[18px] h-[22px]" src={img7} alt="" />
@@ -44,7 +44,7 @@ const Services = () => {
           </p>
           <button className="text-[16px] text-[#1E1E1E]">Explore Now</button>
         </div>
-        <div className="w-[236px] h-[152px] border p-[12px] bg-[#F7F7F7]">
+        <div className="lg:w-[236px] mb-5 h-[152px] border p-[12px] bg-[#F7F7F7]">
           <div className="flex justify-between mb-[12px]">
             <h3 className="text-[12px] text-[#1E1E1E]">Ophthalmology</h3>
             <img className="w-[18px] h-[22px]" src={img8} alt="" />

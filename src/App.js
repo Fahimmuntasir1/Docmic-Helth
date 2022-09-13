@@ -10,7 +10,7 @@ import Testimonial from "./Components/Testimonial/Testimonial";
 function App() {
   return (
     <div className="bg-gradient-to-r from-[#90d4ed59] to-[#eb90ed35]">
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
       <Footer />
     </div>

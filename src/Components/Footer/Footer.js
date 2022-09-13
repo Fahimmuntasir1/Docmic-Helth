@@ -8,7 +8,7 @@ import vector5 from "../../assests/footer/Vector (9).png";
 const Footer = () => {
   return (
     <footer className="bg-[#E9EEF7]  mt-[56px] py-[42px]">
-      <div className="w-10/12 mx-auto flex justify-between">
+      <div className="w-10/12 mx-auto lg:flex justify-between">
         <div>
           <p class="font-semibold text-xl tracking-tight">
             {" "}

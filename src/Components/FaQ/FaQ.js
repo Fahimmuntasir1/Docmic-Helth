@@ -5,7 +5,7 @@ import Group from "../../assests/FaQ/Group 29.png";
 import { FaPlus } from "react-icons/fa";
 const FaQ = () => {
   return (
-    <section className="flex items-center mt-[56px] pt-[10px] justify-between relative">
+    <section className="lg:flex items-center mt-[56px] pt-[10px] justify-between relative">
       <div>
         <div>
           <p className="text-[16px] text-[#642DFF] font-medium mb-3">
@@ -15,7 +15,7 @@ const FaQ = () => {
             Get Your General Answer{" "}
           </h2>
         </div>
-        <div className="grid place-items-center w-[579px]">
+        <div className="grid place-items-center lg:w-[579px]">
           <div className="mx-auto my-5"></div>
 
           <div className="transition hover:bg-indigo-50">
@@ -95,8 +95,12 @@ const FaQ = () => {
         </div>
       </div>
       <div className="relative">
-        <img className="absolute bottom-20 -left-[85px]" src={Group} alt="" />
-        <img className="w-[321px] h-[345px]" src={fAq} alt="" />
+        <img
+          className="object-cover absolute bottom-20 lg:-left-[85px]"
+          src={Group}
+          alt=""
+        />
+        <img className="lg:w-[321px] lg:h-[345px] mx-auto" src={fAq} alt="" />
       </div>
     </section>
   );
