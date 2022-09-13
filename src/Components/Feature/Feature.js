@@ -9,7 +9,7 @@ const Feature = () => {
   return (
     <section className="flex items-center mt-[46px] pt-[10px] justify-between">
       <div>
-        <img src={feature} alt="" />
+        <img className="w-[321px] h-[345px]" src={feature} alt="" />
       </div>
       <div className="-w-[579px]">
         <p className="text-[16px] mb-3 text-[#642DFF] font-medium">

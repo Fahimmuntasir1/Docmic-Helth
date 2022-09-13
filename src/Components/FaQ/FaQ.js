@@ -94,7 +94,7 @@ const FaQ = () => {
         </div>
       </div>
       <div>
-        <img src={fAq} alt="" />
+        <img className="w-[321px] h-[345px]" src={fAq} alt="" />
       </div>
     </section>
   );

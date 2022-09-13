@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section className="flex mt-[46px] pt-[10px] justify-between">
       <div className="w-[579px]">
-        <p className="text-[16px] text-[#642DFF] font-medium">
+        <p className="text-[16px] mb-3 text-[#642DFF] font-medium">
           16+ Years Experiences{" "}
         </p>
         <h2 className="text-[32px] text-[#1E1E1E] leading-[38px] font-medium">
@@ -22,7 +22,11 @@ const Experience = () => {
         </p>
       </div>
       <div className="relative">
-        <img className="relative z-10" src={pose} alt="people" />
+        <img
+          className="relative z-10 w-[321px] h-[345px]"
+          src={pose}
+          alt="people"
+        />
       </div>
     </section>
   );
