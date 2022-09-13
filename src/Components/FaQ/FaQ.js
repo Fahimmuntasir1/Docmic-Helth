@@ -16,14 +16,13 @@ const FaQ = () => {
         </div>
         <div className="grid place-items-center w-[579px]">
           <div className="mx-auto my-5"></div>
-          {/* <!-- What is term --> */}
+
           <div className="transition hover:bg-indigo-50">
-            {/* <!-- header --> */}
             <div className="accordion-header cursor-pointer transition flex justify-between items-center h-16">
               <h3>Get Your General Answer</h3>
               <FaPlus />
             </div>
-            {/* <!-- Content --> */}
+
             <div className="accordion-content pt-0 overflow-hidden max-h-0">
               <p className="leading-6 font-light pl-9 text-justify">
                 Our asked sex point her she seems. New plenty she horses parish
@@ -33,30 +32,12 @@ const FaQ = () => {
             </div>
           </div>
 
-          {/* <!-- When to use Accordion Components --> */}
           <div className="transition hover:bg-indigo-50">
-            {/* <!-- header --> */}
             <div className="accordion-header cursor-pointer transition flex justify-between items-center h-16">
               <h3>Will I always see my own doctor?</h3>
               <FaPlus />
             </div>
-            {/* <!-- Content --> */}
-            <div className="accordion-content pt-0 overflow-hidden max-h-0">
-              <p className="leading-6 font-light pl-9 text-justify">
-                Our asked sex point her she seems. New plenty she horses parish
-                design you. Stuff sight equal of my woody. Him children bringing
-                goodness suitable she entirely put far daughter.
-              </p>
-            </div>
-          </div>
-          {/* <!-- Accordion Wrapper --> */}
-          <div className="transition hover:bg-indigo-50">
-            {/* <!-- header --> */}
-            <div className="accordion-header cursor-pointer transition flex justify-between items-center h-16">
-              <h3>What is one Medical’s care?</h3>
-              <FaPlus />
-            </div>
-            {/* <!-- Content --> */}
+
             <div className="accordion-content pt-0 overflow-hidden max-h-0">
               <p className="leading-6 font-light pl-9 text-justify">
                 Our asked sex point her she seems. New plenty she horses parish
@@ -66,14 +47,12 @@ const FaQ = () => {
             </div>
           </div>
 
-          {/* <!-- Accordion Wrapper --> */}
           <div className="transition hover:bg-indigo-50">
-            {/* <!-- header --> */}
             <div className="accordion-header cursor-pointer transition flex justify-between items-center h-16">
-              <h3>What is evidence based medicine?</h3>
+              <h3>What is one Medical’s care?</h3>
               <FaPlus />
             </div>
-            {/* <!-- Content --> */}
+
             <div className="accordion-content pt-0 overflow-hidden max-h-0">
               <p className="leading-6 font-light pl-9 text-justify">
                 Our asked sex point her she seems. New plenty she horses parish
@@ -82,14 +61,28 @@ const FaQ = () => {
               </p>
             </div>
           </div>
-          {/* <!-- Accordion Wrapper --> */}
+
           <div className="transition hover:bg-indigo-50">
-            {/* <!-- header --> */}
+            <div className="accordion-header cursor-pointer transition flex justify-between items-center h-16">
+              <h3>What is evidence based medicine?</h3>
+              <FaPlus />
+            </div>
+
+            <div className="accordion-content pt-0 overflow-hidden max-h-0">
+              <p className="leading-6 font-light pl-9 text-justify">
+                Our asked sex point her she seems. New plenty she horses parish
+                design you. Stuff sight equal of my woody. Him children bringing
+                goodness suitable she entirely put far daughter.
+              </p>
+            </div>
+          </div>
+
+          <div className="transition hover:bg-indigo-50">
             <div className="accordion-header cursor-pointer transition flex justify-between items-center h-16">
               <h3>What is an academic medical center?</h3>
               <FaPlus />
             </div>
-            {/* <!-- Content --> */}
+
             <div className="accordion-content pt-0 overflow-hidden max-h-0">
               <p className="leading-6 font-light pl-9 text-justify">
                 Our asked sex point her she seems. New plenty she horses parish
