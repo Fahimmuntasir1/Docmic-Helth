@@ -9,7 +9,7 @@ const Navbar = () => {
   }); */
   return (
     <nav class="flex items-center justify-between flex-wrap p-6 w-10/12 mx-auto">
-      <div class="flex items-center flex-shrink-0 bg-[#F7F7F7] mr-6">
+      <div class="flex items-center flex-shrink-0 mr-6">
         <p class="font-semibold text-xl tracking-tight">
           {" "}
           <span className="text-[#2D89FF]">Doc</span>
