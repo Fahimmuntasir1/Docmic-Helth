@@ -1,10 +1,11 @@
 import React from "react";
 import fAq from "../../assests/FaQ/Frame 21.png";
+import Group from "../../assests/FaQ/Group 29.png";
 
 import { FaPlus } from "react-icons/fa";
 const FaQ = () => {
   return (
-    <section className="flex items-center mt-[56px] pt-[10px] justify-between">
+    <section className="flex items-center mt-[56px] pt-[10px] justify-between relative">
       <div>
         <div>
           <p className="text-[16px] text-[#642DFF] font-medium mb-3">
@@ -93,7 +94,8 @@ const FaQ = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="relative">
+        <img className="absolute bottom-20 -left-[85px]" src={Group} alt="" />
         <img className="w-[321px] h-[345px]" src={fAq} alt="" />
       </div>
     </section>

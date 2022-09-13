@@ -10,7 +10,7 @@ const Experience = () => {
         <h2 className="text-[32px] text-[#1E1E1E] leading-[38px] font-medium">
           We Are Always ensure Best Medical Treatment For Your Health
         </h2>
-        <p className="mt-[14px] text-justify leading-[21px] text-[14px]">
+        <p className="mt-[14px] text-justify leading-[21px] text-[14px] text-[#575757]">
           simply dummy text of the printing and typesetting industry. Lorem
           Ipsum has been the industry's standard dummy text ever since the
           1500s, when an unknown printer took a galley of type and scrambled it

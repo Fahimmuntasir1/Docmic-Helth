@@ -14,7 +14,7 @@ const Testimonial = () => {
           What they say?{" "}
         </h2>
       </div>
-      <div className=" w-[664px] mx-auto mt-[56px]">
+      <div className=" w-[664px] mx-auto mt-[56px] bg-white h-[314px] rounded-[10px]">
         <div className="rounded-[10px] p-[24px] text-left flex items-center justify-between relative">
           <div>
             <h3 className="text-[14px] text-[#222222]">David Jeams</h3>
@@ -29,7 +29,7 @@ const Testimonial = () => {
             <img className="absolute left-[6px]" src={plus} alt="" />
           </div>
           <div>
-            <img className="absolute -z-10 top-0 right-0" src={design} alt="" />
+            <img className="absolute  top-0 right-0" src={design} alt="" />
             <img className="w-[228px] h-[228px]" src={man} alt="" />
           </div>
         </div>
