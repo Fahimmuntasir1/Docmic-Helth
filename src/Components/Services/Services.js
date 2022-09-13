@@ -8,7 +8,9 @@ const Services = () => {
   return (
     <section>
       <div className="text-center">
-        <p className="text-[16px] text-[#642DFF] font-medium">Our Services</p>
+        <p className="text-[16px] mb-3 text-[#642DFF] font-medium">
+          Our Services
+        </p>
         <h2 className="text-[32px] text-[#1E1E1E]">Services For Your Health</h2>
       </div>
       <div className="lg:flex mt-[28px] gap-[21px] justify-center">

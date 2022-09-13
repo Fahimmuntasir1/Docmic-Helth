@@ -3,6 +3,7 @@ import FaQ from "./Components/FaQ/FaQ";
 import Feature from "./Components/Feature/Feature";
 import Navbar from "./Components/Navbar/Navbar";
 import Services from "./Components/Services/Services";
+import Testimonial from "./Components/Testimonial/Testimonial";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Experience />
       <Feature />
       <FaQ />
+      <Testimonial />
     </div>
   );
 }

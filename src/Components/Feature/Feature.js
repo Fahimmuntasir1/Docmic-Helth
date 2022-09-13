@@ -12,7 +12,7 @@ const Feature = () => {
         <img src={feature} alt="" />
       </div>
       <div className="-w-[579px]">
-        <p className="text-[16px] text-[#642DFF] font-medium">
+        <p className="text-[16px] mb-3 text-[#642DFF] font-medium">
           Our Hospital Feature
         </p>
         <h2 className="text-[32px] text-[#1E1E1E] leading-[38px] font-medium">
