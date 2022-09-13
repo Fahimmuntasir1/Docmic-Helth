@@ -5,8 +5,8 @@ import man from "../../assests/tesimonial/Ikbal 1.png";
 
 const Testimonial = () => {
   return (
-    <section>
-      <div className="mt-[56px] text-center">
+    <section className="my-[112px]">
+      <div className=" text-center">
         <p className="text-[16px] mb-3   text-[#642DFF] font-medium">
           Testimonial{" "}
         </p>
