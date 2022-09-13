@@ -37,7 +37,7 @@ const Services = () => {
             <h3 className="text-[12px] text-[#1E1E1E]">Dental Care</h3>
             <img className="w-[18px] h-[22px]" src={img7} alt="" />
           </div>
-          <p className="text-[14px] text-[#575757] mb-[24px]">
+          <p className="text-[14px] te  xt-[#575757] mb-[24px]">
             Seduahag perspiciati under omnised atused error.
           </p>
           <button className="text-[16px] text-[#1E1E1E]">Explore Now</button>
