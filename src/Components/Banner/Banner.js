@@ -2,6 +2,12 @@ import React from "react";
 import pose from "../../assests/banner/pose_2.png";
 import shape from "../../assests/banner/Ellipse 5.png";
 import frame from "../../assests/banner/Frame 7.png";
+import Rectangle from "../../assests/banner/Rectangle 2.png";
+import shape1 from "../../assests/banner/Rectangle 4.png";
+import shape2 from "../../assests/banner/Rectangle 5.png";
+import group from "../../assests/banner/Group 3.png";
+import text from "../../assests/banner/Meet Our Doctors.png";
+import Ornament from "../../assests/banner/Ornament 19.png";
 
 const Banner = () => {
   return (
@@ -41,6 +47,14 @@ const Banner = () => {
         <img className="absolute -z-10" src={shape} alt="" />
         <img className="" src={pose} alt="" />
         <img className="absolute bottom-32 -left-14" src={frame} alt="" />
+        <div className="absolute bottom-0 -right-14">
+          <img className="relative" src={Rectangle} alt="" />
+          <img className="absolute bottom-4 right-8" src={shape1} alt="" />
+          <img className="absolute bottom-9 right-8" src={shape2} alt="" />
+          <img className="absolute bottom-16 right-6" src={group} alt="" />
+          <img className="absolute bottom-28 right-24" src={text} alt="" />
+          <img className="absolute -bottom-14" src={Ornament} alt="" />
+        </div>
       </div>
     </section>
   );
