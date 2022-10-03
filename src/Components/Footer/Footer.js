@@ -10,7 +10,7 @@ const Footer = () => {
     <footer className="bg-[#E9EEF7]  mt-[56px] py-[42px]">
       <div className="w-10/12 mx-auto lg:flex justify-between">
         <div>
-          <p class="font-semibold text-xl tracking-tight">
+          <p className="font-semibold text-xl tracking-tight">
             {" "}
             <span className="text-[#2D89FF]">Doc</span>
             <span className="text-[#642DFF]">mic</span>{" "}

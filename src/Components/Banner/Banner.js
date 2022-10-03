@@ -21,7 +21,7 @@ const Banner = () => {
           There are many variations of passages of lpsum available, but the
           majority hae suffered.
         </p>
-        <button class="inline-block px-6 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:bg-[#5ca3ff] bg-[#2D89FF] mt-4 lg:mt-0 mb-[56px]">
+        <button className="inline-block px-6 py-4 leading-none border rounded text-white border-white hover:border-transparent hover:bg-[#5ca3ff] bg-[#2D89FF] mt-4 lg:mt-0 mb-[56px]">
           Meet Our Specialist
         </button>
         <div className="flex mb-10">

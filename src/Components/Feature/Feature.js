@@ -8,14 +8,14 @@ import img5 from "../../assests/feature/image 5.png";
 const Feature = () => {
   return (
     <section className="lg:flex items-center mt-[46px] pt-[10px] justify-between">
-      <div className="hidden lg:block order-2">
+      <div className="hidden lg:block">
         <img
           className="lg:w-[321px] lg:h-[345px] mx-auto"
           src={feature}
           alt=""
         />
       </div>
-      <div className="lg:-w-[579px] order-1">
+      <div className="lg:-w-[579px] ">
         <p className="text-[16px] mb-3 text-[#642DFF] font-medium">
           Our Hospital Feature
         </p>
@@ -65,7 +65,7 @@ const Feature = () => {
           </div>
         </div>
       </div>
-      <div className="lg:hidden block order-2">
+      <div className="lg:hidden block ">
         <img
           className="lg:w-[321px] lg:h-[345px] mx-auto"
           src={feature}
